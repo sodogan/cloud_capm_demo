@@ -1,0 +1,15 @@
+{
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": [
+          "datamodel.cds"
+        ],
+        "credentials": {
+          "database": "db"
+        }
+      }
+    }
+  }
+}
