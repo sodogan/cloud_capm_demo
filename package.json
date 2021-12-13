@@ -10,6 +10,8 @@
     "express": "^4"
   },
   "devDependencies": {
+    "@sap/ux-specification": "^1.96.0",
+    "rest-service": "0.0.1",
     "sqlite3": "^5.0.2"
   },
   "scripts": {
@@ -49,5 +51,8 @@
         }
       }
     }
-  }
+  },
+  "sapux": [
+    "app/orderlistapp"
+  ]
 }
